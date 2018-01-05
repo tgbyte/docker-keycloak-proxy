@@ -11,4 +11,4 @@ COPY --from=0 /go/src/github.com/gambol99/keycloak-proxy/keycloak-proxy /
 COPY --from=0 /go/src/github.com/gambol99/keycloak-proxy/templates/ /templates
 
 EXPOSE 3000
-ENTRYPOINT [ "/opt/keycloak-proxy" ]
+ENTRYPOINT [ "/keycloak-proxy" ]
